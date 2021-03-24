@@ -33,6 +33,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     color: #fff;
 }
+
 .navbar.scrolling .name{
     color: rgb(241, 243, 243);
     transition: 1s;
@@ -58,7 +59,7 @@ body {
 }
 
 .navbar .nav a {
-    color: rgb(70, 70, 70);
+    color: rgb(31, 31, 31);
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
@@ -76,7 +77,7 @@ body {
 }
 
 .navbar .mobile-buttons {
-    color: white;
+    color: rgb(31, 31, 31);
     font-size: 25px;
     cursor: pointer;
     display: none;
@@ -288,8 +289,18 @@ a {
         display: block;
         
     }
+    .navbar .nav a {
+        color: white;
+       
+    }
+    .navbar.scrolling .mobile-buttons .mta-mobile {
+        color: white;
+    }
     .navbar {
         padding: 10px 20px;
+    }
+    .navbar {
+        justify-content: space-between;
     }
     .layout {
         max-width: 400px;
@@ -304,7 +315,7 @@ a {
         height: 100vh;
         top: 0;
         right: -100%;
-        padding-top: 20px;
+        padding-top: 90px;
         padding-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
@@ -316,6 +327,7 @@ a {
     }
 
     .navbar .nav .cta-mobile {
+        color: white;
         position: absolute;
         top: 0;
         right: 0;
@@ -387,6 +399,7 @@ a {
     .shop-category .layout {
         margin-top: 90px;
         margin-left:20px;
+        width: 100%;
     }
     .shop-category .shop-category-content .title-shop-category {
         font-size: 24px;
